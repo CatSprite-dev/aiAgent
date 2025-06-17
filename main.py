@@ -15,7 +15,7 @@ def main():
         if not arg.startswith("--"):
             args.append(arg)
     
-    if not args:
+    if not args:    
         print("Promt not provided")
         sys.exit(1)
 
